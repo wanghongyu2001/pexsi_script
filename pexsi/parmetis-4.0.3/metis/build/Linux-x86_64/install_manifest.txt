@@ -1,0 +1,8 @@
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/include/metis.h
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/lib/libmetis.a
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/gpmetis
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/ndmetis
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/mpmetis
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/m2gmetis
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/graphchk
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/cmpfillin

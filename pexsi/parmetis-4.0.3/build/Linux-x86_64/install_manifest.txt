@@ -1,0 +1,5 @@
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/lib/libparmetis.a
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/ptest
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/mtest
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/parmetis
+/home/wanghongyu/learn/pexsi/parmetis-4.0.3/bin/pometis
