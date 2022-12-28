@@ -1,0 +1,19 @@
+Performing C SOURCE FILE Test C_SUPPORTS_DOLLAR succeeded with the following output:
+Change Dir: /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/CMakeFiles/CMakeScratch/TryCompile-NCHMXW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5530/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5530.dir/build.make CMakeFiles/cmTC_b5530.dir/build
+gmake[1]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/CMakeFiles/CMakeScratch/TryCompile-NCHMXW'
+Building C object CMakeFiles/cmTC_b5530.dir/src.c.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpicc -DC_SUPPORTS_DOLLAR  -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -fopenmp  -std=c99 -fopenmp -DPRNTlevel=0 -DDEBUGlevel=0  -o CMakeFiles/cmTC_b5530.dir/src.c.o -c /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/CMakeFiles/CMakeScratch/TryCompile-NCHMXW/src.c
+Linking C executable cmTC_b5530
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5530.dir/link.txt --verbose=1
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpicc -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -fopenmp  -std=c99 -fopenmp -DPRNTlevel=0 -DDEBUGlevel=0  CMakeFiles/cmTC_b5530.dir/src.c.o -o cmTC_b5530 
+gmake[1]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/CMakeFiles/CMakeScratch/TryCompile-NCHMXW'
+
+
+Source file was:
+
+extern int dollar$(void);
+int main() { return 0; }
+
+

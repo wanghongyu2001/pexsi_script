@@ -1,0 +1,2 @@
+/usr/bin/ar qc libftestmod.a CMakeFiles/ftestmod.dir/superlupara.f90.o CMakeFiles/ftestmod.dir/superlu_mod.f90.o
+/usr/bin/ranlib libftestmod.a

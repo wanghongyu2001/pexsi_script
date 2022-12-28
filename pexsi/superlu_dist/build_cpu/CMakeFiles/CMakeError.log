@@ -1,0 +1,38 @@
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-6Cdi0V
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_116c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_116c5.dir/build.make CMakeFiles/cmTC_116c5.dir/build
+gmake[1]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-6Cdi0V'
+Building Fortran object CMakeFiles/cmTC_116c5.dir/testFortranCompiler.f.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpifort    -c /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-6Cdi0V/testFortranCompiler.f -o CMakeFiles/cmTC_116c5.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_116c5
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_116c5.dir/link.txt --verbose=1
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpifort CMakeFiles/cmTC_116c5.dir/testFortranCompiler.f.o -o cmTC_116c5 
+CMakeFiles/cmTC_116c5.dir/testFortranCompiler.f.o: In function `MAIN__':
+testFortranCompiler.f:(.text+0xa): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_116c5] Error 1
+gmake[1]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-6Cdi0V'
+gmake: *** [cmTC_116c5/fast] Error 2
+
+
+
+Determining if the Fortran sgemm exists failed with the following output:
+Change Dir: /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-KriuwV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9268/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9268.dir/build.make CMakeFiles/cmTC_c9268.dir/build
+gmake[1]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-KriuwV'
+Building Fortran object CMakeFiles/cmTC_c9268.dir/testFortranCompiler.f.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpifort    -c /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-KriuwV/testFortranCompiler.f -o CMakeFiles/cmTC_c9268.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_c9268
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9268.dir/link.txt --verbose=1
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpifort CMakeFiles/cmTC_c9268.dir/testFortranCompiler.f.o -o cmTC_c9268  /home/wanghongyu/pexsi/superlu_dist/lib64/libblas.a 
+CMakeFiles/cmTC_c9268.dir/testFortranCompiler.f.o: In function `MAIN__':
+testFortranCompiler.f:(.text+0xa): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_c9268] Error 1
+gmake[1]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/CMakeScratch/TryCompile-KriuwV'
+gmake: *** [cmTC_c9268/fast] Error 2
+
+
+

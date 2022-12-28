@@ -1,0 +1,45 @@
+Change Dir: /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile VerifyFortranC && /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -S/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify -B/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/gmake  -f CMakeFiles/Makefile2 VerifyFortranC
+gmake[1]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -S/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify -B/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_progress_start /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 6
+/usr/bin/gmake  -f CMakeFiles/Makefile2 CMakeFiles/VerifyFortranC.dir/all
+gmake[2]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/gmake  -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+gmake[3]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+cd /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX && /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+gmake[3]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/gmake  -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+gmake[3]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+[ 16%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpifort -DVERIFY_CXX -I/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX -O3 -DNDEBUG -O3 -c /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+[ 33%] Linking Fortran static library libVerifyFortran.a
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/ar qc libVerifyFortran.a CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/ranlib libVerifyFortran.a
+gmake[3]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+[ 33%] Built target VerifyFortran
+/usr/bin/gmake  -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+gmake[3]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+cd /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX && /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+gmake[3]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/bin/gmake  -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+gmake[3]: Entering directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+[ 50%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpicc -DVERIFY_CXX -I/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -fopenmp  -std=c99 -fopenmp -DPRNTlevel=0 -DDEBUGlevel=0 -O3 -DNDEBUG -o CMakeFiles/VerifyFortranC.dir/main.c.o -c /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify/main.c
+[ 66%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpicc -DVERIFY_CXX -I/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -I/home/wanghongyu/pexsi/parmetis-4.0.3/include -fopenmp  -std=c99 -fopenmp -DPRNTlevel=0 -DDEBUGlevel=0 -O3 -DNDEBUG -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o -c /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify/VerifyC.c
+[ 83%] Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpicxx -DVERIFY_CXX -I/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX -fopenmp -O3 -DNDEBUG -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/share/cmake-3.25/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+[100%] Linking CXX executable VerifyFortranC
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openmpi-4.1.4-p5kkl6mf5ozduge4ete4hue3qtsiglli/bin/mpicxx -fopenmp -O3 -DNDEBUG CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -o VerifyFortranC  libVerifyFortran.a -lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lgfortran -lquadmath -lgomp 
+gmake[3]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+[100%] Built target VerifyFortranC
+gmake[2]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+/usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/cmake-3.25.0-zo4c7mneq3kwvsmpsu24u2eiqrexvbwk/bin/cmake -E cmake_progress_start /home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 0
+gmake[1]: Leaving directory `/home/wanghongyu/pexsi/superlu_dist/build_cpu/CMakeFiles/FortranCInterface/VerifyCXX'
+

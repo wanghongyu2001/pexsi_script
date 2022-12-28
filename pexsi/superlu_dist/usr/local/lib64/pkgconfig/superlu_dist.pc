@@ -1,0 +1,12 @@
+prefix=/usr/local
+libdir=/usr/local/lib64
+includedir=/usr/local/include
+
+Name: SuperLU_DIST
+Description: Distributed-memory direct solution of sparse systems of linear equations
+Version: 7.2.0
+URL: https://portal.nersc.gov/project/sparse/superlu/
+
+Libs: -L${libdir} -lsuperlu_dist
+Libs.private: /usr/local/spack/opt/spack/linux-centos7-skylake_avx512/gcc-7.5.0/openblas-0.3.21-h7u6ocyakal6yryuegekqsyrwuygxiu5/lib/libopenblas.a -lm
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/home/wanghongyu/pexsi/superlu_dist
+libdir=/home/wanghongyu/pexsi/superlu_dist/lib64
+includedir=/home/wanghongyu/pexsi/superlu_dist/include
+
+Name: SuperLU_DIST
+Description: Distributed-memory direct solution of sparse systems of linear equations
+Version: 7.2.0
+URL: https://portal.nersc.gov/project/sparse/superlu/
+
+Libs: -L${libdir} -lsuperlu_dist
+Libs.private: blas -lm
+Cflags: -I${includedir}

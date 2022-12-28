@@ -1,0 +1,9 @@
+-S option is not given. Treat the overlap matrix as an identity matrix.
+
+-P option is not given. Do not limit SelInv pipelining depth.
+
+-SS option is not given. Do not use symmetric storage.
+
+Memory cost of symbolic factorization (MB): 
+Total: 220.517, Average: 55.1292, Max: 59.5033
+
